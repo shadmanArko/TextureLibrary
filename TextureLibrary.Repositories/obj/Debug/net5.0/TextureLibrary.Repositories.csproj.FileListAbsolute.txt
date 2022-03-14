@@ -1,0 +1,15 @@
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\bin\Debug\net5.0\TextureLibrary.Repositories.deps.json
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\bin\Debug\net5.0\TextureLibrary.Repositories.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\bin\Debug\net5.0\ref\TextureLibrary.Repositories.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\bin\Debug\net5.0\TextureLibrary.Repositories.pdb
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\bin\Debug\net5.0\TextureLibrary.Models.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\bin\Debug\net5.0\TextureLibrary.Models.pdb
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.csproj.AssemblyReference.cache
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.AssemblyInfoInputs.cache
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.AssemblyInfo.cs
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.csproj.CoreCompileInputs.cache
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.csproj.CopyComplete
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\ref\TextureLibrary.Repositories.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Repositories\obj\Debug\net5.0\TextureLibrary.Repositories.pdb

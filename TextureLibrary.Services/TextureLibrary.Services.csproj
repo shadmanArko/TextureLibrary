@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TextureLibrary.Dtos\TextureLibrary.Dtos.csproj" />
+    <ProjectReference Include="..\TextureLibrary.Models\TextureLibrary.Models.csproj" />
+    <ProjectReference Include="..\TextureLibrary.Repositories\TextureLibrary.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

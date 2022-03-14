@@ -1,0 +1,12 @@
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\bin\Debug\net5.0\TextureLibrary.Dtos.deps.json
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\bin\Debug\net5.0\TextureLibrary.Dtos.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\bin\Debug\net5.0\ref\TextureLibrary.Dtos.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\bin\Debug\net5.0\TextureLibrary.Dtos.pdb
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\TextureLibrary.Dtos.csproj.AssemblyReference.cache
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\TextureLibrary.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\TextureLibrary.Dtos.AssemblyInfoInputs.cache
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\TextureLibrary.Dtos.AssemblyInfo.cs
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\TextureLibrary.Dtos.csproj.CoreCompileInputs.cache
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\TextureLibrary.Dtos.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\ref\TextureLibrary.Dtos.dll
+D:\_BrainStation\DotNet Projects\TextureLibrary\TextureLibrary.Dtos\obj\Debug\net5.0\TextureLibrary.Dtos.pdb

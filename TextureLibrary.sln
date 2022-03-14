@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureLibrary.Api", "TextureLibrary.Api\TextureLibrary.Api.csproj", "{9BA25E74-DFFD-40C2-B646-B9EADABB0BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureLibrary.Models", "TextureLibrary.Models\TextureLibrary.Models.csproj", "{3F2DAB63-C3A4-48EE-9CB3-FA401D2C2DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureLibrary.Dtos", "TextureLibrary.Dtos\TextureLibrary.Dtos.csproj", "{391F674B-A2CD-4B62-856F-FE0BDABCE369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureLibrary.Repositories", "TextureLibrary.Repositories\TextureLibrary.Repositories.csproj", "{A182CE15-3225-43B5-81CF-F48E0EA50DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureLibrary.Services", "TextureLibrary.Services\TextureLibrary.Services.csproj", "{9F80891D-80BD-44E0-80EA-F3C32DB4FFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureLibrary.Controllers", "TextureLibrary.Controllers\TextureLibrary.Controllers.csproj", "{697DD4CE-2593-4277-AE57-EEE8EDCAED45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA25E74-DFFD-40C2-B646-B9EADABB0BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA25E74-DFFD-40C2-B646-B9EADABB0BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA25E74-DFFD-40C2-B646-B9EADABB0BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA25E74-DFFD-40C2-B646-B9EADABB0BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2DAB63-C3A4-48EE-9CB3-FA401D2C2DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2DAB63-C3A4-48EE-9CB3-FA401D2C2DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2DAB63-C3A4-48EE-9CB3-FA401D2C2DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2DAB63-C3A4-48EE-9CB3-FA401D2C2DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391F674B-A2CD-4B62-856F-FE0BDABCE369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391F674B-A2CD-4B62-856F-FE0BDABCE369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391F674B-A2CD-4B62-856F-FE0BDABCE369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391F674B-A2CD-4B62-856F-FE0BDABCE369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A182CE15-3225-43B5-81CF-F48E0EA50DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A182CE15-3225-43B5-81CF-F48E0EA50DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A182CE15-3225-43B5-81CF-F48E0EA50DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A182CE15-3225-43B5-81CF-F48E0EA50DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F80891D-80BD-44E0-80EA-F3C32DB4FFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F80891D-80BD-44E0-80EA-F3C32DB4FFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F80891D-80BD-44E0-80EA-F3C32DB4FFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F80891D-80BD-44E0-80EA-F3C32DB4FFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697DD4CE-2593-4277-AE57-EEE8EDCAED45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697DD4CE-2593-4277-AE57-EEE8EDCAED45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697DD4CE-2593-4277-AE57-EEE8EDCAED45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697DD4CE-2593-4277-AE57-EEE8EDCAED45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F4899DA-8616-4001-9F5C-ACB3D010DEC9}
+	EndGlobalSection
+EndGlobal
