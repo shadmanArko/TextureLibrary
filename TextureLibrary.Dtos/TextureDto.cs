@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Collections.Generic;
 
 namespace TextureLibrary.Dtos
 {
     public class TextureDto
     {
-        public string Name { get; set; }
-        public string Category { get; set; }
-        public string Finish { get; set; }
-        public string Size { get; set; }
-        public IFormFile Photo { get; set; }
+        public string WallType { get; set; }
+
+        public List<TexturePropertiesDTO> TexturePropertiesDtos { get; set; }
+
+        public TextureDto()
+        {
+            TexturePropertiesDtos = new List<TexturePropertiesDTO>();
+        }
     }
 }

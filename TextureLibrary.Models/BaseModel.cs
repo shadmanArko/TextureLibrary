@@ -7,16 +7,10 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace TextureLibrary.Models
 {
-    public class Texture: BaseModel
-
+    public class BaseModel
     {
-     
-        public string WallType { get; set; }
-        public List<TextureProperties> TextureProperties { get; set; }
-       
-
-       
+        [BsonId]
+        [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
+        public string Id { get; set; }
     }
-
-
 }

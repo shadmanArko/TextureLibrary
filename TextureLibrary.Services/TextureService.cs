@@ -21,6 +21,9 @@ namespace TextureLibrary.Services
 
         public async Task<Texture> Insert(TextureDto textureDto)
         {
+
+            Texture texture = new Texture();
+
             var path = Path.Combine(Directory.GetCurrentDirectory(), "Textures/");
 
             if ((!Directory.Exists(path)))
@@ -28,26 +31,39 @@ namespace TextureLibrary.Services
                 Directory.CreateDirectory(path);
             }
 
-            string fileName = textureDto.Photo.FileName;
-            string ext = Path.GetExtension(fileName);
+            texture.WallType = textureDto.WallType;
 
-            fileName = Path.GetRandomFileName();
-            fileName = Path.GetFileNameWithoutExtension(fileName);
-            fileName = fileName + ext;
-            var filePath = "Textures/" + fileName;
-
-            using (var stream = System.IO.File.Create(filePath))
+            foreach (var TextureProperties in textureDto.TexturePropertiesDtos)
             {
-                await textureDto.Photo.CopyToAsync(stream);
-                stream.Flush();
+                string fileName = TextureProperties.Photo.FileName;
+                string ext = Path.GetExtension(fileName);
+
+                fileName = Path.GetRandomFileName();
+                fileName = Path.GetFileNameWithoutExtension(fileName);
+                fileName = fileName + ext;
+                var filePath = "Textures/" + fileName;
+
+                using (var stream = System.IO.File.Create(filePath))
+                {
+                    await TextureProperties.Photo.CopyToAsync(stream);
+                    stream.Flush();
+                }
+
+                //Texture texture = new Texture();
+                TextureProperties textureProperties = new TextureProperties();
+                textureProperties.Name = TextureProperties.Name;
+                textureProperties.Finish = TextureProperties.Finish;
+                textureProperties.Size = TextureProperties.Size;
+                textureProperties.Photo = filePath;
+
+                texture.TextureProperties.Add(textureProperties);
+
             }
 
-            Texture texture = new Texture();
-            texture.Name = textureDto.Name;
-            texture.Category = textureDto.Category;
-            texture.Finish = textureDto.Finish;
-            texture.Size = textureDto.Size;
-            texture.Photo = filePath;
+
+
+            //Texture texture = new Texture();
+            //texture.WallType 
 
             var x = await _textureRepository.Insert(texture);
             return texture;
@@ -56,14 +72,19 @@ namespace TextureLibrary.Services
 
         public async Task<Texture> Update(string id, TextureDto textureDto)
         {
-            var texture = await _textureRepository.GetById(id);
-            texture.Name = textureDto.Name;
-            texture.Category = textureDto.Category;
-            texture.Finish = textureDto.Finish;
-            texture.Size = textureDto.Size;
-            var x = await _textureRepository.Update(texture);
-            return x;
+            throw new NotImplementedException();
         }
+
+        //public async Task<Texture> Update(string id, TextureDto textureDto)
+        //{
+        //    var texture = await _textureRepository.GetById(id);
+        //    texture.Name = textureDto.Name;
+        //    texture.Category = textureDto.Category;
+        //    texture.Finish = textureDto.Finish;
+        //    texture.Size = textureDto.Size;
+        //    var x = await _textureRepository.Update(texture);
+        //    return x;
+        //}
 
         public async Task<Texture> GetById(string id)
         {
