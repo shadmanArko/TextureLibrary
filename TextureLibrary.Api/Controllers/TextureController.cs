@@ -27,6 +27,13 @@ namespace TextureLibrary.Api.Controllers
             return Ok(texture);
         }
 
+        [HttpPost ("Properties/{id}")]
+
+        public async Task<IActionResult> InsertTextureProperties([FromForm] TexturePropertiesDTO texturePropertiesDto , string id)
+        {
+            return Ok();
+        }
+
         [HttpPut]
         public async Task<IActionResult> UpdateTexture(string id, TextureDto textureDto)
         {

@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace TextureLibrary.Models
 {
     public class TextureProperties:BaseModel
-
     {
         public string Name { get; set; }
         public string Finish { get; set; }

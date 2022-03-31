@@ -10,7 +10,7 @@ namespace TextureLibrary.Services
 {
     public interface ITextureService
     {
-        Task<Texture> Insert(TextureDto textureDto);
+        Task<Texture> Insert(TexturePropertiesDTO texturePropertiesDto, string id);
         Task<Texture> Update(string id, TextureDto textureDto);
         Task<Texture> GetById(string id);
         Task<List<Texture>> GetAll();

@@ -8,15 +8,8 @@ using MongoDB.Bson.Serialization.Attributes;
 namespace TextureLibrary.Models
 {
     public class Texture: BaseModel
-
     {
-     
         public string WallType { get; set; }
         public List<TextureProperties> TextureProperties { get; set; }
-       
-
-       
     }
-
-
 }
